@@ -7,6 +7,10 @@ authRouter.post("/login", signIn);
 
 authRouter.post("/sign-up", signUp);
 
+/*authRouter.post("/sign-in", (req, res) => {
+  res.send("Subscription route");
+});*/
+
 authRouter.post("/logout", signOut);
 
 export default authRouter;
